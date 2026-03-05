@@ -387,15 +387,18 @@
 
         <!-- Personal Contact -->
         <div class="flex flex-wrap justify-center md:justify-end gap-6 text-sm text-gray-700 border-l-0 md:border-l border-gray-100 md:pl-8">
-            <div class="flex items-center gap-2">
-<div class="bg-green-50 p-2 rounded-lg flex flex-row items-center justify-center gap-2">
-    <i data-lucide="phone" class="w-4 h-4 text-green-600"></i>
-    <i data-lucide="message-circle" class="w-4 h-4 text-blue-500"></i>
-</div>
+            <div class="flex items-center gap-3">
+
+                <div class="bg-green-50 p-2 rounded-lg flex items-center gap-2">
+                    <i data-lucide="phone" class="w-5 h-5 text-green-600"></i>
+                    <i data-lucide="message-circle" class="w-5 h-5 text-blue-500"></i>
+                </div>
+
                 <div>
                     <div class="text-[10px] text-gray-400 uppercase font-bold">Phone / Text</div>
-                    <div class="font-semibold">+385 41 363 8257 - Omar</div>
+                    <a href="tel:+385413638257" class="font-semibold">+385 41 363 8257</a> - Omar
                 </div>
+
             </div>
         </div>
 
@@ -403,10 +406,18 @@
         <button onclick="window.print()" class="no-print flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-xl font-bold transition-all shadow-lg hover:shadow-xl whitespace-nowrap">
             <i data-lucide="printer" class="w-5 h-5"></i>Export PDF
         </button>
+
     </div>
 </div>
+
+<!-- THIS MUST BE HERE -->
+<script>
+lucide.createIcons();
+</script>
+
 </body>
 </html>
+
 
 
 

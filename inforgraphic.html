@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omar's GoMore Fleet - Oulu</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f3f4f6;
+        }
+        .card-hover:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+        }
+        [contenteditable="falsa"]:hover {
+            background-color: rgba(59, 130, 246, 0.05);
+            outline: 1px dashed #3b82f6;
+            cursor: edit;
+        }
+        [contenteditable="falsa"]:focus {
+            outline: 2px solid #3b82f6;
+            background-color: white;
+        }
+        @media print {
+            .no-print { display: none !important; }
+            body { padding: 0; background: white; }
+            .shadow-2xl { shadow: none; border: none; }
+        }
+    </style>
+</head>
+<body class="flex items-center justify-center min-h-screen p-4 sm:p-8">
+
+    <!-- Infographic Container -->
+    <div id="capture-area" class="max-w-5xl w-full bg-white rounded-3xl shadow-2xl overflow-hidden border border-gray-100">
+        
+        <!-- Header Section -->
+        <div class="relative bg-gray-900 text-white px-8 py-12 text-center overflow-hidden">
+            <div class="absolute inset-0 opacity-30 bg-[url('https://images.unsplash.com/photo-1542281286-9e0a16bb7366?auto=format&fit=crop&w=1200&q=80')] bg-cover bg-center"></div>
+            <div class="absolute inset-0 bg-gradient-to-t from-gray-900 to-transparent"></div>
+            
+            <div class="relative z-10 max-w-3xl mx-auto">
+                <span class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-500/20 text-blue-300 text-sm font-semibold tracking-wide mb-4 border border-blue-400/30">
+                    <i data-lucide="map-pin" class="w-4 h-4"></i> Oulu, Finland (90230)
+                </span>
+<h1 contenteditable="falsa" class="text-4xl sm:text-5xl font-extrabold mb-4 tracking-tight">
+    Your Perfect Ride Awaits
+</h1>
+<p contenteditable="falsa" class="text-lg sm:text-xl text-gray-300 mb-6 font-light">
+    Premium, reliable, and affordable cars hosted by 
+    <span class="font-bold text-blue-400">Omar</span>. Whether you need a quick city trip or a weekend adventure, we have the keys ready.
+</p>
+                
+                <div class="flex flex-wrap justify-center gap-4 text-sm font-medium">
+                    <div class="flex items-center gap-2 bg-white/10 px-4 py-2 rounded-lg backdrop-blur-sm"><i data-lucide="shield-check" class="text-green-400 w-5 h-5"></i> Fully Insured</div>
+                    <div class="flex items-center gap-2 bg-white/10 px-4 py-2 rounded-lg backdrop-blur-sm"><i data-lucide="zap" class="text-yellow-400 w-5 h-5"></i> Instant Booking</div>
+                    <div class="flex items-center gap-2 bg-white/10 px-4 py-2 rounded-lg backdrop-blur-sm"><i data-lucide="star" class="text-yellow-400 w-5 h-5"></i> 5.0 Top Rated</div>
+                </div>
+            </div>
+        </div>
+
+    <!-- Fleet Grid -->
+    <div class="p-8 bg-gray-50">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+            <!-- Nissan Qashqai -->
+            <div class="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden transition-all duration-300 card-hover flex flex-col relative">
+                <div class="absolute -right-12 top-6 bg-blue-600 text-white text-xs font-bold px-12 py-1 rotate-45 z-10 shadow-lg">AUTOMATIC</div>
+                <div class="h-48 bg-gray-200 relative">
+                    <img id="img-car-1" src="https://d147al5y0i1rb.cloudfront.net/uploads/car_picture/image/1866613/car_1771079307.jpg?w=768&h=511&fit=crop&auto=format%2Ccompress&dpr=1" class="w-full h-full object-cover">
+                    <div class="absolute top-4 left-4 bg-white/95 backdrop-blur px-3 py-1 rounded-full text-sm font-bold text-gray-900 shadow-md border border-gray-100">
+                        From 44€/d
+                    </div>
+                </div>
+                <div class="p-6 flex flex-col flex-grow">
+                    <h3 class="text-xl font-bold text-gray-900">Nissan Qashqai <span class="text-gray-500 font-medium text-lg">(2015)</span></h3>
+                    <div class="flex items-center gap-1 mt-1 mb-3">
+                        <i data-lucide="star" class="w-4 h-4 text-yellow-400 fill-yellow-400"></i>
+                        <span class="text-sm font-bold text-gray-700">5.0</span>
+                    </div>
+                    <p class="text-gray-600 text-sm mb-4 line-clamp-2">Premium SUV with panoramic view, perfect for Nordic conditions.</p>
+               
+                        
+<div class="grid grid-cols-2 gap-x-2 gap-y-3 mb-6">
+    <div class="flex items-center gap-2 text-xs text-gray-700">
+        <i data-lucide="settings-2" class="w-3.5 h-3.5 text-blue-500"></i>
+        <span contenteditable="true">Automatic</span>
+    </div>
+    <div class="flex items-center gap-2 text-xs text-gray-700">
+        <i data-lucide="camera" class="w-3.5 h-3.5 text-gray-600"></i>
+        <span contenteditable="true">Reverse Camera</span>
+    </div>
+    <div class="flex items-center gap-2 text-xs text-gray-700">
+        <i data-lucide="navigation" class="w-3.5 h-3.5 text-green-600"></i>
+        <span contenteditable="true">GPS Navigation</span>
+    </div>
+    <div class="flex items-center gap-2 text-xs text-gray-700">
+        <i data-lucide="briefcase" class="w-3.5 h-3.5 text-amber-600"></i>
+        <span contenteditable="true">Large Boot</span>
+    </div>
+    <div class="flex items-center gap-2 text-xs text-gray-700">
+        <i data-lucide="smartphone" class="w-3.5 h-3.5 text-purple-500"></i>
+        <span contenteditable="true">CarPlay</span>
+    </div>
+    <div class="flex items-center gap-2 text-xs text-gray-700">
+        <i data-lucide="zap" class="w-3.5 h-3.5 text-yellow-500"></i>
+        <span contenteditable="true">Cruise Control</span>
+    </div>
+    <div class="flex items-center gap-2 text-xs text-gray-700">
+        <i data-lucide="users" class="w-3.5 h-3.5 text-pink-500"></i>
+        <span contenteditable="true">Isofix</span>
+    </div>
+    <div class="flex items-center gap-2 text-xs text-gray-700">
+        <i data-lucide="anchor" class="w-3.5 h-3.5 text-gray-700"></i>
+        <span contenteditable="true">Tow Bar</span>
+    </div>
+</div>
+                        <div class="mt-auto pt-4 border-t border-gray-100">
+                            <a href="https://gomore.fi/vuokra-auto/1927618" target="_blank" class="block w-full text-center bg-gray-900 hover:bg-blue-600 text-white font-semibold py-3 rounded-xl transition-colors no-print">View and Book on GoMore</a>
+                        </div>
+                    </div>
+                </div>
+
+<!-- Car 2: Citroën C4 -->
+<div class="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden transition-all duration-300 card-hover flex flex-col relative">
+    <div class="absolute -right-12 top-6 bg-blue-600 text-white text-xs font-bold px-12 py-1 rotate-45 z-10 shadow-lg">AUTOMATIC</div>
+    <div class="h-48 bg-gray-200 relative">
+        <img id="img-car-2" 
+             src="https://d147al5y0i1rb.cloudfront.net/uploads/car_picture/image/1886081/car_1771787038.jpg?w=768&h=511&fit=crop&auto=format%2Ccompress&dpr=1" 
+             class="w-full h-full object-cover">
+        <div class="absolute top-4 left-4 bg-white/95 backdrop-blur px-3 py-1 rounded-full text-sm font-bold text-gray-900 shadow-md border border-gray-100">
+            From <span>38</span>€/d
+        </div>
+    </div>
+    <div class="p-6 flex flex-col flex-grow">
+        <h3 class="text-xl font-bold text-gray-900">Citroën C4 Cactus <span class="text-gray-500 font-medium text-lg">(2019)</span></h3>
+        <div class="flex items-center gap-1 mt-1 mb-3">
+            <i data-lucide="star" class="w-4 h-4 text-yellow-400 fill-yellow-400"></i>
+            <span class="text-sm font-bold text-gray-700">5.0</span>
+        </div>
+        <p class="text-gray-600 text-sm mb-4 line-clamp-2">The ultimate comfort-focused crossover with unique Airbump design.</p>
+       <div class="grid grid-cols-2 gap-x-2 gap-y-3 mb-6">
+    <div class="flex items-center gap-2 text-xs text-gray-700">
+        <i data-lucide="settings-2" class="w-3.5 h-3.5 text-blue-500"></i>
+        <span contenteditable="true">Automatic</span>
+    </div>
+    <div class="flex items-center gap-2 text-xs text-gray-700">
+        <i data-lucide="radar" class="w-3.5 h-3.5 text-gray-500"></i>
+        <span contenteditable="true">Parking Sensor</span>
+    </div>
+    <div class="flex items-center gap-2 text-xs text-gray-700">
+        <i data-lucide="navigation" class="w-3.5 h-3.5 text-green-600"></i>
+        <span contenteditable="true">GPS Nav</span>
+    </div>
+    <div class="flex items-center gap-2 text-xs text-gray-700">
+        <i data-lucide="smartphone" class="w-3.5 h-3.5 text-purple-500"></i>
+        <span contenteditable="true">CarPlay</span>
+    </div>
+    <div class="flex items-center gap-2 text-xs text-gray-700">
+        <i data-lucide="zap" class="w-3.5 h-3.5 text-yellow-500"></i>
+        <span contenteditable="true">Cruise Control</span>
+    </div>
+    <div class="flex items-center gap-2 text-xs text-gray-700">
+        <i data-lucide="users" class="w-3.5 h-3.5 text-pink-500"></i>
+        <span contenteditable="true">Isofix</span>
+    </div>
+    <div class="flex items-center gap-2 text-xs text-gray-700">
+        <i data-lucide="zap" class="w-3.5 h-3.5 text-red-500"></i>
+        <span contenteditable="true">Turbo</span>
+    </div>
+    <div class="flex items-center gap-2 text-xs text-gray-700">
+        <i data-lucide="star" class="w-3.5 h-3.5 text-teal-500"></i>
+        <span contenteditable="true">Modern & Stylish</span>
+    </div>
+</div>
+        <div class="mt-auto pt-4 border-t border-gray-100">
+            <a href="https://gomore.fi/vuokra-auto/1970122" target="_blank" class="block w-full text-center bg-gray-900 hover:bg-blue-600 text-white font-semibold py-3 rounded-xl transition-colors no-print">View and Book on GoMore</a>
+        </div>
+    </div>
+</div>
+
+<!-- Car 3: Ford Fiesta -->
+<div class="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden transition-all duration-300 card-hover flex flex-col relative">
+    <div class="h-48 bg-gray-200 relative">
+        <img id="img-car-3"
+             src="https://d147al5y0i1rb.cloudfront.net/uploads/car_picture/image/1410316/car_1753089932.jpeg?w=768&h=511&fit=crop&auto=format%2Ccompress&dpr=1"
+             class="w-full h-full object-cover">
+        <div class="absolute top-4 left-4 bg-white/95 backdrop-blur px-3 py-1 rounded-full text-sm font-bold text-gray-900 shadow-md border border-gray-100">
+            From <span>27</span>€/d
+        </div>
+    </div>
+    <div class="p-6 flex flex-col flex-grow">
+        <h3 class="text-xl font-bold text-gray-900">Ford Fiesta <span class="text-gray-500 font-medium text-lg">(2013)</span></h3>
+        <div class="flex items-center gap-1 mt-1 mb-3">
+            <i data-lucide="star" class="w-4 h-4 text-yellow-400 fill-yellow-400"></i>
+            <span class="text-sm font-bold text-gray-700">4.9</span>
+        </div>
+        <p class="text-gray-600 text-sm mb-4 line-clamp-2">Reliable, fuel-efficient hatchback. Perfect for city errands and daily use.</p>
+        <div class="grid grid-cols-2 gap-x-2 gap-y-3 mb-6">
+    <div class="flex items-center gap-2 text-xs text-gray-700">
+        <i data-lucide="git-commit" class="w-3.5 h-3.5 text-gray-500"></i>
+        <span contenteditable="true">Manual</span>
+    </div>
+    <div class="flex items-center gap-2 text-xs text-gray-700">
+        <i data-lucide="music" class="w-3.5 h-3.5 text-pink-500"></i>
+        <span contenteditable="true">AUX / Bluetooth</span>
+    </div>
+    <div class="flex items-center gap-2 text-xs text-gray-700">
+        <i data-lucide="leaf" class="w-3.5 h-3.5 text-green-500"></i>
+        <span contenteditable="true">Eco Engine</span>
+    </div>
+    <div class="flex items-center gap-2 text-xs text-gray-700">
+        <i data-lucide="thermometer" class="w-3.5 h-3.5 text-red-400"></i>
+        <span contenteditable="true">Block & Internal Heater</span>
+    </div>
+    <div class="flex items-center gap-2 text-xs text-gray-700">
+        <i data-lucide="users" class="w-3.5 h-3.5 text-pink-500"></i>
+        <span contenteditable="true">Isofix</span>
+    </div>
+    <div class="flex items-center gap-2 text-xs text-gray-700">
+        <i data-lucide="zap" class="w-3.5 h-3.5 text-yellow-500"></i>
+        <span contenteditable="true">Cruise Control</span>
+    </div>
+    <div class="flex items-center gap-2 text-xs text-gray-700">
+        <i data-lucide="heart" class="w-3.5 h-3.5 text-red-500"></i>
+        <span contenteditable="true">Cozy & Stable</span>
+    </div>
+    <div class="flex items-center gap-2 text-xs text-gray-700">
+        <i data-lucide="droplet" class="w-3.5 h-3.5 text-blue-500"></i>
+        <span contenteditable="true">Fuel Friendly</span>
+    </div>
+</div>
+        <div class="mt-auto pt-4 border-t border-gray-100">
+            <a href="https://gomore.fi/vuokra-auto/969674" target="_blank" class="block w-full text-center bg-gray-900 hover:bg-blue-600 text-white font-semibold py-3 rounded-xl transition-colors no-print">View and Book on GoMore</a>
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+
+<!-- Testimonials -->
+<div class="bg-gray-100 p-8">
+    <h2 class="text-2xl font-bold mb-6 text-center">What Our Customers Say</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <!-- Testimonial 1 -->
+        <div class="bg-white p-4 rounded-xl shadow-sm">
+            <p class="text-gray-700 italic">"Excellent car and excellent communication. Everything went well. Highly recommended!"</p>
+            <div class="mt-2 font-semibold text-gray-900 flex items-center gap-1">
+                – Nina
+                <i data-lucide="star" class="w-4 h-4 text-yellow-400 fill-yellow-400"></i>
+                <i data-lucide="star" class="w-4 h-4 text-yellow-400 fill-yellow-400"></i>
+                <i data-lucide="star" class="w-4 h-4 text-yellow-400 fill-yellow-400"></i>
+                <i data-lucide="star" class="w-4 h-4 text-yellow-400 fill-yellow-400"></i>
+                <i data-lucide="star" class="w-4 h-4 text-yellow-400 fill-yellow-400"></i>
+            </div>
+        </div>
+
+        <!-- Testimonial 2 -->
+        <div class="bg-white p-4 rounded-xl shadow-sm">
+            <p class="text-gray-700 italic">"Erittäin sujuvaa vuokrausta. Kommunikointi nopeaa ja sujuvaa"</p>
+            <div class="mt-2 font-semibold text-gray-900 flex items-center gap-1">
+                – Olli-Pekka
+                <i data-lucide="star" class="w-4 h-4 text-yellow-400 fill-yellow-400"></i>
+                <i data-lucide="star" class="w-4 h-4 text-yellow-400 fill-yellow-400"></i>
+                <i data-lucide="star" class="w-4 h-4 text-yellow-400 fill-yellow-400"></i>
+                <i data-lucide="star" class="w-4 h-4 text-yellow-400 fill-yellow-400"></i>
+                <i data-lucide="star" class="w-4 h-4 text-yellow-400 fill-yellow-400"></i>
+            </div>
+        </div>
+
+        <!-- Testimonial 3 -->
+        <div class="bg-white p-4 rounded-xl shadow-sm">
+            <p class="text-gray-700 italic">"Very nice car. Really great experience! The car was clean and very fuel-efficient – I did over 600km and still had ⅕ of the tank left. The owner is really friendly and helpful. Definitely my go-to for next time!"</p>
+            <div class="mt-2 font-semibold text-gray-900 flex items-center gap-1">
+                – Łukasz
+                <i data-lucide="star" class="w-4 h-4 text-yellow-400 fill-yellow-400"></i>
+                <i data-lucide="star" class="w-4 h-4 text-yellow-400 fill-yellow-400"></i>
+                <i data-lucide="star" class="w-4 h-4 text-yellow-400 fill-yellow-400"></i>
+                <i data-lucide="star" class="w-4 h-4 text-yellow-400 fill-yellow-400"></i>
+                <i data-lucide="star" class="w-4 h-4 text-yellow-400 fill-yellow-400"></i>
+            </div>
+        </div>
+<script>
+    lucide.createIcons(); // this will render the stars
+</script>
+            </div>
+        </div>
+
+<!-- Contact Form -->
+<div class="bg-white p-8 border-t border-gray-100">
+    <h2 class="text-xl font-bold mb-4 text-center">Contact Us</h2>
+    <form id="contactForm" class="max-w-2xl mx-auto flex flex-col gap-4"
+          action="https://formspree.io/f/xojkaaev" method="POST">
+        <input type="text" name="name" placeholder="Your Name" class="border p-2 rounded-lg w-full" required>
+        <input type="email" name="email" placeholder="Your Email" class="border p-2 rounded-lg w-full" required>
+        <textarea name="message" rows="4" placeholder="Your Message" class="border p-2 rounded-lg w-full" required></textarea>
+        <button type="submit" class="bg-blue-600 hover:bg-blue-700 text-white py-3 rounded-xl font-bold transition-all">Send Message</button>
+    </form>
+    <p id="formFeedback" class="text-center mt-2 text-green-600 hidden">Message sent! We will get back to you shortly.</p>
+</div>
+
+<script>
+    lucide.createIcons();
+
+    const form = document.getElementById('contactForm');
+    const feedback = document.getElementById('formFeedback');
+
+    form.addEventListener('submit', async function(e){
+        e.preventDefault();
+
+        const formData = new FormData(form);
+        const response = await fetch(form.action, {
+            method: form.method,
+            body: formData,
+            headers: { 'Accept': 'application/json' }
+        });
+
+        if (response.ok) {
+            feedback.classList.remove('hidden');
+            form.reset();
+        } else {
+            feedback.textContent = "Oops! There was a problem sending your message.";
+            feedback.classList.remove('hidden');
+            feedback.classList.replace('text-green-600', 'text-red-600');
+        }
+    });
+</script>
+
+<!-- Contact & Booking Section -->
+<div class="bg-white border-t border-gray-100 p-8">
+    <div class="flex flex-col md:flex-row items-center justify-between gap-8">
+
+        <!-- Branding -->
+        <div class="flex flex-col gap-4 w-full md:w-auto">
+            <div class="flex items-center gap-3">
+                <span class="text-xs font-bold text-gray-400 uppercase tracking-widest">View / Book from</span>
+                <div class="relative">
+                    <img id="img-logo"
+                         src="https://d1p2aimeyx6kdr.cloudfront.net/wp-content/uploads/2017/07/12204453/gomore.jpg"
+                         alt="GoMore"
+                         class="h-12 object-contain">
+                </div>
+            </div>
+        </div>
+
+        <!-- Personal Contact -->
+        <div class="flex flex-wrap justify-center md:justify-end gap-6 text-sm text-gray-700 border-l-0 md:border-l border-gray-100 md:pl-8">
+            <div class="flex items-center gap-2">
+<div class="bg-green-50 p-2 rounded-lg flex flex-row items-center justify-center gap-2">
+    <i data-lucide="phone" class="w-4 h-4 text-green-600"></i>
+    <i data-lucide="message-circle" class="w-4 h-4 text-blue-500"></i>
+</div>
+                <div>
+                    <div class="text-[10px] text-gray-400 uppercase font-bold">Phone / Text</div>
+                    <div class="font-semibold">+385 41 363 825 - Omar</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Export Button -->
+        <button onclick="window.print()" class="no-print flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-xl font-bold transition-all shadow-lg hover:shadow-xl whitespace-nowrap">
+            <i data-lucide="printer" class="w-5 h-5"></i>Export PDF
+        </button>
+    </div>
+</div>
+</body>
+</html>

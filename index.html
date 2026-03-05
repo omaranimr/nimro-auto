@@ -3,9 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Omar's GoMore Fleet - Oulu</title>
+
+    <!-- UPDATED TITLE (Professional + SEO Friendly) -->
+    <title>Nimro Auto | Premium Car Rental in Oulu</title>
+
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://unpkg.com/lucide@latest"></script>
+
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap');
         body {
@@ -28,43 +32,77 @@
         @media print {
             .no-print { display: none !important; }
             body { padding: 0; background: white; }
-            .shadow-2xl { shadow: none; border: none; }
+            .shadow-2xl { box-shadow: none; border: none; }
         }
     </style>
 </head>
+
 <body class="flex items-center justify-center min-h-screen p-4 sm:p-8">
 
-    <!-- Infographic Container -->
+    <!-- Main Container -->
     <div id="capture-area" class="max-w-5xl w-full bg-white rounded-3xl shadow-2xl overflow-hidden border border-gray-100">
-        
-        <!-- Header Section -->
-        <div class="relative bg-gray-900 text-white px-8 py-12 text-center overflow-hidden">
+
+        <!-- HEADER / HERO SECTION -->
+        <div class="relative bg-gray-900 text-white px-8 py-14 text-center overflow-hidden">
+
+            <!-- Background Image -->
             <div class="absolute inset-0 opacity-30 bg-[url('https://images.unsplash.com/photo-1542281286-9e0a16bb7366?auto=format&fit=crop&w=1200&q=80')] bg-cover bg-center"></div>
-            <div class="absolute inset-0 bg-gradient-to-t from-gray-900 to-transparent"></div>
-            
+            <div class="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/80 to-transparent"></div>
+
             <div class="relative z-10 max-w-3xl mx-auto">
-                <span class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-500/20 text-blue-300 text-sm font-semibold tracking-wide mb-4 border border-blue-400/30">
-                    <i data-lucide="map-pin" class="w-4 h-4"></i> Oulu, Finland (90230)
-                </span>
-<h1 contenteditable="falsa" class="text-4xl sm:text-5xl font-extrabold mb-4 tracking-tight">
-    Your Perfect Ride Awaits
-</h1>
-<p contenteditable="falsa" class="text-lg sm:text-xl text-gray-300 mb-6 font-light">
-    Premium, reliable, and affordable cars hosted by 
-    <span class="font-bold text-blue-400">Omar</span>. Whether you need a quick city trip or a weekend adventure, we have the keys ready.
-</p>
-                
-                <div class="flex flex-wrap justify-center gap-4 text-sm font-medium">
-                    <div class="flex items-center gap-2 bg-white/10 px-4 py-2 rounded-lg backdrop-blur-sm"><i data-lucide="shield-check" class="text-green-400 w-5 h-5"></i> Fully Insured</div>
-                    <div class="flex items-center gap-2 bg-white/10 px-4 py-2 rounded-lg backdrop-blur-sm"><i data-lucide="zap" class="text-yellow-400 w-5 h-5"></i> Instant Booking</div>
-                    <div class="flex items-center gap-2 bg-white/10 px-4 py-2 rounded-lg backdrop-blur-sm"><i data-lucide="star" class="text-yellow-400 w-5 h-5"></i> 5.0 Top Rated</div>
+
+                <!-- Logo + Brand -->
+                <div class="flex flex-col items-center mb-6">
+                    <img src="logo.png" alt="Nimro Auto Logo" class="w-28 h-auto mb-4">
+                    <h2 class="text-3xl font-extrabold tracking-wide">
+                        Nimro Auto
+                    </h2>
+                    <div class="text-sm uppercase tracking-widest text-blue-400 mt-1">
+                        Premium Car Rental
+                    </div>
                 </div>
+
+                <!-- Location Badge -->
+                <span class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-blue-500/20 text-blue-300 text-sm font-semibold tracking-wide mb-6 border border-blue-400/30">
+                    <i data-lucide="map-pin" class="w-4 h-4"></i>
+                    Oulu, Finland (90230)
+                </span>
+
+                <!-- Main Headline -->
+                <h1 class="text-4xl sm:text-5xl font-extrabold mb-5 tracking-tight">
+                    Your Perfect Ride Awaits
+                </h1>
+
+                <!-- Sub Text -->
+                <p class="text-lg sm:text-xl text-gray-300 mb-8 font-light">
+                    Premium, reliable, and affordable cars hosted by 
+                    <span class="font-bold text-blue-400">Omar</span>. 
+                    Whether you need a quick city trip or a weekend adventure, 
+                    Nimro Auto has the keys ready.
+                </p>
+
+                <!-- Feature Badges -->
+                <div class="flex flex-wrap justify-center gap-4 text-sm font-medium">
+                    <div class="flex items-center gap-2 bg-white/10 px-4 py-2 rounded-lg backdrop-blur-sm">
+                        <i data-lucide="shield-check" class="text-green-400 w-5 h-5"></i>
+                        Fully Insured
+                    </div>
+                    <div class="flex items-center gap-2 bg-white/10 px-4 py-2 rounded-lg backdrop-blur-sm">
+                        <i data-lucide="zap" class="text-yellow-400 w-5 h-5"></i>
+                        Instant Booking
+                    </div>
+                    <div class="flex items-center gap-2 bg-white/10 px-4 py-2 rounded-lg backdrop-blur-sm">
+                        <i data-lucide="star" class="text-yellow-400 w-5 h-5"></i>
+                        5.0 Top Rated
+                    </div>
+                </div>
+
             </div>
         </div>
 
-    <!-- Fleet Grid -->
-    <div class="p-8 bg-gray-50">
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <!-- Fleet Grid -->
+        <div class="p-8 bg-gray-50">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
 
             <!-- Nissan Qashqai -->
             <div class="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden transition-all duration-300 card-hover flex flex-col relative">
@@ -369,3 +407,4 @@
 </div>
 </body>
 </html>
+
